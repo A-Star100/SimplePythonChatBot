@@ -6,7 +6,7 @@ Before you go, remember that this script doesn't work with versions 1.0 and abov
 
 `pip install openai==0.28`
 
-in Terminal.
+in Terminal or Command Prompt.
 
 ### Script Overview
 1. First, the script imports the OpenAI library.
