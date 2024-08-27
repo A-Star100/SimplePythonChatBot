@@ -1,6 +1,8 @@
 import openai
+import os
 
-openai.api_key = "APIKEY HERE"
+# Set up the API key as an environment variable for added security by referring to the README.
+openai.api_key = os.getenv("OPENAI_API_KEY", "YOUR_API_KEY_HERE")
 
 def chat_with_gpt(prompt):
     response = openai.ChatCompletion.create(
