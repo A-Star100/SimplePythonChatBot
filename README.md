@@ -2,7 +2,7 @@
 This Chatbot uses the Python OpenAI library to chat with ChatGPT. You must provide your own API key if you want to use this script.
 
 ## Important
-Before you go, remember that this script doesn't work with versions 1.0 and above of the Python OpenAI library, so when installing OpenAI, you must instead use the command:
+Before you go, remember that this script doesn't work with versions 1.0 and above of the Python OpenAI library (due to using a no-longer-supported feature), so when installing OpenAI, you must instead use the command:
 
 `pip install openai==0.28`
 
