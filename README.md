@@ -12,4 +12,4 @@ in Terminal or Command Prompt.
 1. First, the script imports the OpenAI library.
 2. Then, it inputs the API key.
 3. After that, it defines a Python function to start chatting with you (look in the script).
-4. Then, it checks if the Python script is being run directly. If true, the script then adds "You:" for your input and "Chatbot:" for the chatbot's input.
+4. Then, it checks if the Python script is being run directly. If true, the script then adds "You:" for your input and "Chatbot:" for the chatbot's response.
