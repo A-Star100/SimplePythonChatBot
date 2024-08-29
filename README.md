@@ -23,6 +23,7 @@ Make sure to replace "api-key" with the API key you got from OpenAI, which you c
    with:
 
    `openai.api_key = ("API_KEY_HERE")`
+   
    Make sure to replace "API_KEY_HERE" with the API key you got.
 ___________________________________________________________________________
 ## Installation
