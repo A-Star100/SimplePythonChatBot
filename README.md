@@ -23,6 +23,7 @@ Make sure to replace "api-key" with the API key you got from OpenAI, which you c
    with:
 
    `openai.api_key = ("API_KEY_HERE")`
+   Make sure to replace "API_KEY_HERE" with the API key you got.
 ___________________________________________________________________________
 ## Installation
 Before you go, remember that this script doesn't work with versions 1.0 and above of the Python OpenAI library (due to using a no-longer-supported feature), so when installing OpenAI, you must instead use the command:
