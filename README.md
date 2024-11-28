@@ -2,7 +2,7 @@
 This Chatbot uses the [Python OpenAI library](https://github.com/openai/openai-python) to let you chat with ChatGPT. You must provide your own API key if you want to use this script.
 
 ## Protection of API keys 
-**Skip to the section "Don't need to protect your API key? Don't set up an environment variable! Instead, do this:" if you don't need to protect your API key.**
+**Skip to the section "No API key protection:" if you don't need to protect your API key.**
 
 To protect your API key, you should set it up as an environment variable. 
 On Mac/Linux, type in this command:
@@ -15,7 +15,7 @@ On Windows, type in this command:
 
 Make sure to replace "api-key" with the API key you got from OpenAI, which you can obtain [here](https://platform.openai.com/docs/overview), by signing up/logging in and clicking "API key reference", and also make sure to keep any ".env" files (that you got after the export) containing your API key not publicly visible. For example, if you are forking this repo, you may want to keep the key in GitHub secrets as a secret API key.
 
-## Don't need to protect your API key? Don't set up an environment variable! Instead, do this:
+## No API key protection:
 1. Delete the `import os` portion of the Python code.
 2. Replace:
 
